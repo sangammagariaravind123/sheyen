@@ -1,0 +1,16 @@
+# Requires windows 10/11 with build 22H2 or later (23H1/H2 or 24H1/H2)
+# Open elevated (run as administrator) CMD or PWSH (powershell)
+winget install Micosoft.WSL
+#Restart PC
+wsl --install Ubuntu
+wsl -u root
+apt update
+apt upgrade
+apt install tcl
+apt-get install ns2
+#Save the nam installation debian file to Downloads/Desktop.. here I'm downloading to Desktop folder
+cd Desktop  (for college systems (OneDrive not configured))
+cd OneDrive/Desktop
+dpkg --install nam1.15   (press `Tab` key for the name to autocomplete)
+nam
+# Network Animator GUI window should Open

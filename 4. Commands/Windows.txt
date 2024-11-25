@@ -1,0 +1,213 @@
+PS C:\Users\sai> ping ff.garena.com
+
+Pinging ff.garena.com [148.222.67.157] with 32 bytes of data:
+Reply from 148.222.67.157: bytes=32 time=51ms TTL=44
+Reply from 148.222.67.157: bytes=32 time=51ms TTL=44
+Reply from 148.222.67.157: bytes=32 time=51ms TTL=44
+Reply from 148.222.67.157: bytes=32 time=51ms TTL=44
+
+Ping statistics for 148.222.67.157:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 51ms, Maximum = 51ms, Average = 51ms
+
+
+PS C:\Users\sai> tracert -h 5 gameloft.com
+
+Tracing route to gameloft.com [208.71.186.80]
+over a maximum of 5 hops:
+
+  1     1 ms     1 ms     1 ms  dlinkrouter.local [192.168.0.1]
+  2     3 ms     3 ms     4 ms  10.7.24.1
+  3     2 ms     5 ms     3 ms  172.25.7.1
+  4     1 ms     2 ms     4 ms  10.70.0.1
+  5     1 ms     1 ms     1 ms  192.168.56.2
+
+Trace complete.
+
+
+PS C:\Users\sai> ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::bd30:9aec:ce59:e9ff%2
+   IPv4 Address. . . . . . . . . . . : 192.168.0.120
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.0.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+
+PS C:\Users\sai> netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:5037         Aravind:50105          ESTABLISHED
+  TCP    127.0.0.1:27183        Aravind:50106          ESTABLISHED
+  TCP    127.0.0.1:27183        Aravind:50107          ESTABLISHED
+  TCP    127.0.0.1:49989        Aravind:49990          ESTABLISHED
+  TCP    127.0.0.1:49990        Aravind:49989          ESTABLISHED
+  TCP    127.0.0.1:50105        Aravind:5037           ESTABLISHED
+  TCP    127.0.0.1:50106        Aravind:27183          ESTABLISHED
+  TCP    127.0.0.1:50107        Aravind:27183          ESTABLISHED
+  TCP    192.168.0.120:49408    20.198.118.190:https   ESTABLISHED
+  TCP    192.168.0.120:50091    Redmi-Note-13-Pro-5G:41399  ESTABLISHED
+  TCP    192.168.0.120:50117    51.132.193.105:https   ESTABLISHED
+
+
+PS C:\Users\sai> nslookup wikipedia.org
+Server:  dlinkrouter.local
+Address:  192.168.0.1
+
+Non-authoritative answer:
+Name:    wikipedia.org
+Addresses:  2001:df2:e500:ed1a::1
+          103.102.166.224
+
+
+PS C:\Users\sai> hostname
+Aravind
+
+
+PS C:\Users\sai> route PRINT -4
+===========================================================================
+Interface List
+ 17...00 e0 4c 36 03 e0 ......Realtek USB FE Family Controller
+  2...74 3a f4 90 c8 6a ......Intel(R) Wi-Fi 6E AX211 160MHz
+  9...74 3a f4 90 c8 6e ......Bluetooth Device (Personal Area Network)
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0      192.168.0.1    192.168.0.120     40
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+      192.168.0.0    255.255.255.0         On-link     192.168.0.120    296
+    192.168.0.120  255.255.255.255         On-link     192.168.0.120    296
+    192.168.0.255  255.255.255.255         On-link     192.168.0.120    296
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link     192.168.0.120    296
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link     192.168.0.120    296
+===========================================================================
+Persistent Routes:
+  None
+
+
+PS C:\Users\sai> arp -a
+
+Interface: 192.168.0.120 --- 0x2
+  Internet Address      Physical Address      Type
+  192.168.0.1           f0-b4-d2-a3-71-99     dynamic
+  192.168.0.149         26-8d-fd-27-f3-b3     dynamic
+  192.168.0.174         d8-e3-5e-0f-d0-76     dynamic
+  192.168.0.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+
+#equivalent of iptables in windows is advfirewall in netsh
+PS C:\Users\sai> netsh advfirewall show currentprofile
+
+Private Profile Settings:
+----------------------------------------------------------------------
+State                                 ON
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO-store only)
+LocalConSecRules                      N/A (GPO-store only)
+InboundUserNotification               Enable
+RemoteManagement                      Disable
+UnicastResponseToMulticast            Enable
+
+Logging:
+LogAllowedConnections                 Disable
+LogDroppedConnections                 Disable
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+Ok.
+
+
+PS C:\Users\sai> systeminfo
+
+Host Name:                 ARAVIND
+OS Name:                   Microsoft Windows 11 Home
+OS Version:                10.0.22631 N/A Build 22631
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          sangammagariaravind123@gmail.com
+Registered Organization:   N/A
+Product ID:                00356-06304-34624-AAOEM
+Original Install Date:     30-08-23, 1.55.24 PM
+System Boot Time:          11-09-24, 8.39.40 PM
+System Manufacturer:       Microsoft Corporation
+System Model:              Surface Pro 9
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 154 Stepping 4 GenuineIntel ~1370 Mhz
+BIOS Version:              Microsoft Corporation 14.101.143, 29-02-24
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              00004009
+Time Zone:                 (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+Total Physical Memory:     8,016 MB
+Available Physical Memory: 2,422 MB
+Virtual Memory: Max Size:  12,880 MB
+Virtual Memory: Available: 6,312 MB
+Virtual Memory: In Use:    6,568 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\ARAVIND
+Hotfix(s):                 4 Hotfix(s) Installed.
+                           [01]: KB5042099
+                           [02]: KB5027397
+                           [03]: KB5031274
+                           [04]: KB5033055
+
+Network Card(s):           3 NIC(s) Installed.
+                           [01]: Intel(R) Wi-Fi 6E AX211 160MHz
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.0.1
+                                 IP address(es)
+                                 [01]: 192.168.0.120
+                                 [02]: fe80::bd30:9aec:ce59:e9ff
+                           [02]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection
+                                 Status:          Media disconnected
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+PS C:\Users\sai>

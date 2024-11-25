@@ -1,0 +1,120 @@
+* Uncompress ns2, tcl, tclcl, otcl, and tk: Say Yes to All for overwriting files
+* You need VS.Net
+* Always remember to run vcvars.bat from VC7/bin directory before running the compiler
+* Ignore the unknown option -GD warnings
+
+
+TCL
+===
+
+* Edit <TCLDIR>/win/Makefile.vc: Change TOOLS32, TOOLS32_rc to c:\Progra~1\Micros~1.Net\VC7
+* nmake /f makefile.vc in win directory
+* Install: nmake /f makefile.vc install
+
+
+TK
+===
+* Change TCLDIR to ..\..\tcl8.3.2
+* Wait for TCL Install to complete
+* Edit <TKDIR>/win/Makefile.vc:
+  - Change TOOLS32, TOOLS32_rc to c:\Progra~1\Micros~1.Net\VC7
+  - Add to lflags: -LIBPATH:$(TOOLS32)\PlatformSdk\lib
+* Install: nmake /f makefile.vc install
+
+
+SetupNS.Bat
+===========
+
+* Run it before proceeding further. Also run it before running any NS simulation
+* Set MyNetSim to be your directory where ns, tclcl,tcl, etc are kept
+* Change the path to include: installed Tcl bin dir, Tcl lib dir, NetSim ns
+  dir, NetSim otcl dir, NetSeim tclcl dir, NetSim tkdir (see sample file).
+  NOTE: If you chose the default directory structure for the NS, TCL, TK, etc
+  directories, you just have to modify MyNetSim
+* Make sure that it runs the correct vcvars32.bat file, i.e., the VS.Net vcvars32.bat
+
+OTCL
+=====
+* Edit Makefile.vc:
+  - TOOLS32	= 	c:\Progra~1\Micros~1.Net\VC7
+  - TCLPATCHLEVEL = 8.3.2
+  - STATIC_TCLTK = 1
+  - Add conlflags=$(conlflags) -LIBPATH:$(TOOLS32)\PlatformSdk\lib
+  - Change TCLLIB/TKLIB: ...s.lib to ....lib for the static case
+  - Add -O2 to cflags and remove cdebug:-Z7 .. from .c.o rule
+* Run: nmake /f makefile.vc
+
+TCLCL
+=====
+* Edit conf/Makefile.win
+  - MSVCDIR = c:\Progra~1\Micros~1.Net\VC7
+  - LOCAL_SRC = <Your NetSim source dir>, e.g., C:\Root\Work\Netsim
+  - #STATIC_LIB=1
+  - INCLUDE	= $(MSVCDIR)\PlatformSdk\include
+  - Add INCLUDE_SDK  = -I$(MSVCDIR)\PlatformSDK\include
+  - Then add $(INCLUDE_SDK) to INCLUDES = ...
+  - TK_VER = 83
+  - TCL_VER = 83 
+  - TCL_SUFFIX = 8.3.2
+  - TK_SUFFIX = 8.3.2
+  - Add TCLCL_SUFFIX = 1.0b12
+  - Add OTCL_SUFFIX = 1.0a8
+  - OTCL_DIR = $(LOCAL_SRC)\otcl-$(OTCL_SUFFIX)
+  - TCLCL_DIR = $(LOCAL_SRC)\tclcl-$(TCLCL_SUFFIX)
+  - Add -LIBPATH:$(TOOLS32)\PlatformSdk\lib to LDFLAGS (both NODEBUG and !NODEBUG)
+
+* Edit Makefile.vc:
+  Modiffy TCL_83_LIBRARY_FILES to ... $(LIBRARY_TCL)/http2.3/http.tcl
+
+* Run: nmake /f makefile.vc
+
+
+NS
+==
+
+* Edit conf/makefile.win
+  - Do ALL the changes specified for TCLCL's conf/makefile.win
+  - Add /EHsc to CFLAGS
+  - Add INCLUDE_LOCAL = -Iaodv -Iqueue -Itools -Imobile -Icommon -Itcp -Iapps -Imcast -Irouting -Imac -Ilink -Iclassifier -Iadc -Itrace
+    after INCLUDE_SDK in the file
+  - Add $(INCLUDE_LOCAL) to INCLUDES as the First entry.
+  - TCLSH	= C:\Progra~1\TCL\Bin\tclsh$(TCL_VER).exe
+
+* Edit makefile.vc
+  - Change @V_STLOBJ@ to $(OBJ_STL) everywhere
+  - Change @V_NS_TCL_LIB_STL@ to $(NS_TCL_LIB_STL) everywhere
+  - Change / in paths for commands (nmake does understand / but cmd does not)
+    You can change every forward slash to \ if you want
+  - Comment out ucb in SUBDIRS
+  - Write the follwoing after include of makefile.win
+    LDFLAGS	= $(LDFLAGS)  /NODEFAULTLIB:msvcrtd.lib /SUBSYSTEM:CONSOLE
+* rng.cc Add #include <ostream> below #include <string.h>
+* dsr/dsragent.cc:
+  - 1195, 2395, 2500, 2551: Default param value should not be specified
+  - 1899, 1900: long long -> __int64
+* dsr/flowstruct.cc:
+  - 30, 170, 236: Default param value should not be specified
+* aodv/aodv_rtable.h
+  - 160: LIST_HEAD(aodv_rt_entries, aodv_rt_entry) rthead;
+* aodv/aodv.cc
+  - 1188: Default param value should not be specified
+* queue/vq.cc
+  - 69: Remove newline from string
+* asim/asim.cc
+  - Remove #include <strings.h>
+* routing/route.h
+  - Remove inline keyword from elements_in_level
+* routing/route.cc
+  - Line 278: Complexe empty if statement
+* Compile
+  nmake /f makefile.vc in the main directory
+
+Random
+======
+
+* Comment out everything about Nix in ns\tcl\lib\ns-rtmodule.tcl
+* Comment out everything about PGM in ns\tcl\lib\ns-default.tcl
+* Comment out line "source ..\pgm\ns-pgm.tcl" in ns\tcl\lib\ns-lib.tcl
+
+Running NS
+==========
