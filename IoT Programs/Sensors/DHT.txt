@@ -1,8 +1,0 @@
-import sys
-import Adafruit_DHT
-import time
-while True:
-	humidity,temperature=Adafruuit_DHT.read_retry(11,4)
-print("Temperature:",temperature)
-print("Humidity",humidity)
-time.sleep(0)
