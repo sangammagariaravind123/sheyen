@@ -1,4 +1,4 @@
-git init
-gut status
-git config --user.name ""
-git config --user.email ""
+git init \n
+git status \n
+git config --user.name "" \n
+git config --user.email "" \n
