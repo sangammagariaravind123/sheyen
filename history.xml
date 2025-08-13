@@ -1,0 +1,954 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.HistoryInfo</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>try { . "c:\Users\sanga\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}</ToString>
+    <Props>
+      <I64 N="Id">1</I64>
+      <S N="CommandLine">try { . "c:\Users\sanga\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}</S>
+      <Obj N="ExecutionStatus" RefId="1">
+        <TN RefId="1">
+          <T>System.Management.Automation.Runspaces.PipelineState</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:22:42.9771275+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:22:43.6357873+05:30</DT>
+      <TS N="Duration">PT0.6586598S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <ToString>ping google.com</ToString>
+    <Props>
+      <I64 N="Id">2</I64>
+      <S N="CommandLine">ping google.com</S>
+      <Obj N="ExecutionStatus" RefId="3">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>3</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:27:29.7958316+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:27:34.9126583+05:30</DT>
+      <TS N="Duration">PT5.1168267S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <ToString>ping google.com</ToString>
+    <Props>
+      <I64 N="Id">3</I64>
+      <S N="CommandLine">ping google.com</S>
+      <Obj N="ExecutionStatus" RefId="5">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:27:48.4402651+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:27:51.9791172+05:30</DT>
+      <TS N="Duration">PT3.5388521S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <ToString>ping google.com</ToString>
+    <Props>
+      <I64 N="Id">4</I64>
+      <S N="CommandLine">ping google.com</S>
+      <Obj N="ExecutionStatus" RefId="7">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:27:54.6704366+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:27:57.8320834+05:30</DT>
+      <TS N="Duration">PT3.1616468S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <ToString>git log -p</ToString>
+    <Props>
+      <I64 N="Id">5</I64>
+      <S N="CommandLine">git log -p</S>
+      <Obj N="ExecutionStatus" RefId="9">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:53:09.0585765+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:53:16.127673+05:30</DT>
+      <TS N="Duration">PT7.0690965S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <ToString>git log</ToString>
+    <Props>
+      <I64 N="Id">6</I64>
+      <S N="CommandLine">git log</S>
+      <Obj N="ExecutionStatus" RefId="11">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:53:18.9265775+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:53:20.7264647+05:30</DT>
+      <TS N="Duration">PT1.7998872S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <ToString>git log -p</ToString>
+    <Props>
+      <I64 N="Id">7</I64>
+      <S N="CommandLine">git log -p</S>
+      <Obj N="ExecutionStatus" RefId="13">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:53:22.115363+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:53:28.1051614+05:30</DT>
+      <TS N="Duration">PT5.9897984S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <ToString>git log -oneline -decorate</ToString>
+    <Props>
+      <I64 N="Id">8</I64>
+      <S N="CommandLine">git log -oneline -decorate</S>
+      <Obj N="ExecutionStatus" RefId="15">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:53:34.5115531+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:53:34.5774817+05:30</DT>
+      <TS N="Duration">PT0.0659286S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <ToString>git log -oneline --decorate</ToString>
+    <Props>
+      <I64 N="Id">9</I64>
+      <S N="CommandLine">git log -oneline --decorate</S>
+      <Obj N="ExecutionStatus" RefId="17">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:53:40.6845915+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:53:40.7482931+05:30</DT>
+      <TS N="Duration">PT0.0637016S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <ToString>git log --oneline --decorate</ToString>
+    <Props>
+      <I64 N="Id">10</I64>
+      <S N="CommandLine">git log --oneline --decorate</S>
+      <Obj N="ExecutionStatus" RefId="19">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:53:43.5927777+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:53:43.7259658+05:30</DT>
+      <TS N="Duration">PT0.1331881S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <ToString>git log --oneline</ToString>
+    <Props>
+      <I64 N="Id">11</I64>
+      <S N="CommandLine">git log --oneline</S>
+      <Obj N="ExecutionStatus" RefId="21">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:53:55.1050323+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:53:55.2477763+05:30</DT>
+      <TS N="Duration">PT0.142744S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <ToString>git help log</ToString>
+    <Props>
+      <I64 N="Id">12</I64>
+      <S N="CommandLine">git help log</S>
+      <Obj N="ExecutionStatus" RefId="23">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:54:10.008605+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:54:11.682573+05:30</DT>
+      <TS N="Duration">PT1.673968S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <ToString>git log --oneline --decorate=short</ToString>
+    <Props>
+      <I64 N="Id">13</I64>
+      <S N="CommandLine">git log --oneline --decorate=short</S>
+      <Obj N="ExecutionStatus" RefId="25">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:58:24.0536351+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:58:24.206464+05:30</DT>
+      <TS N="Duration">PT0.1528289S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="26">
+    <TNRef RefId="0" />
+    <ToString>git log --oneline --decorate=full</ToString>
+    <Props>
+      <I64 N="Id">14</I64>
+      <S N="CommandLine">git log --oneline --decorate=full</S>
+      <Obj N="ExecutionStatus" RefId="27">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:58:29.0872679+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:58:29.224722+05:30</DT>
+      <TS N="Duration">PT0.1374541S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="28">
+    <TNRef RefId="0" />
+    <ToString>git log --oneline --decorate=no</ToString>
+    <Props>
+      <I64 N="Id">15</I64>
+      <S N="CommandLine">git log --oneline --decorate=no</S>
+      <Obj N="ExecutionStatus" RefId="29">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T09:58:41.9284269+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T09:58:42.0696976+05:30</DT>
+      <TS N="Duration">PT0.1412707S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="30">
+    <TNRef RefId="0" />
+    <ToString>git show 195597c</ToString>
+    <Props>
+      <I64 N="Id">16</I64>
+      <S N="CommandLine">git show 195597c</S>
+      <Obj N="ExecutionStatus" RefId="31">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:05:05.261986+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:06:16.4984609+05:30</DT>
+      <TS N="Duration">PT1M11.2364749S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="32">
+    <TNRef RefId="0" />
+    <ToString>git show-branch</ToString>
+    <Props>
+      <I64 N="Id">17</I64>
+      <S N="CommandLine">git show-branch</S>
+      <Obj N="ExecutionStatus" RefId="33">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:08:37.9038857+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:08:38.0045516+05:30</DT>
+      <TS N="Duration">PT0.1006659S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="34">
+    <TNRef RefId="0" />
+    <ToString>git help show-branch</ToString>
+    <Props>
+      <I64 N="Id">18</I64>
+      <S N="CommandLine">git help show-branch</S>
+      <Obj N="ExecutionStatus" RefId="35">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:08:46.0760723+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:08:46.8785297+05:30</DT>
+      <TS N="Duration">PT0.8024574S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="36">
+    <TNRef RefId="0" />
+    <ToString>diff</ToString>
+    <Props>
+      <I64 N="Id">19</I64>
+      <S N="CommandLine">diff</S>
+      <Obj N="ExecutionStatus" RefId="37">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>3</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:09:17.4815379+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:09:20.3855107+05:30</DT>
+      <TS N="Duration">PT2.9039728S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="38">
+    <TNRef RefId="0" />
+    <ToString>git reflog</ToString>
+    <Props>
+      <I64 N="Id">20</I64>
+      <S N="CommandLine">git reflog</S>
+      <Obj N="ExecutionStatus" RefId="39">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:15:07.0377956+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:15:12.3221498+05:30</DT>
+      <TS N="Duration">PT5.2843542S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="40">
+    <TNRef RefId="0" />
+    <ToString>git show-branch &lt;rev&gt;</ToString>
+    <Props>
+      <I64 N="Id">21</I64>
+      <S N="CommandLine">git show-branch &lt;rev&gt;</S>
+      <Obj N="ExecutionStatus" RefId="41">
+        <TNRef RefId="1" />
+        <ToString>Failed</ToString>
+        <I32>5</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:20:07.9312392+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:20:07.9321902+05:30</DT>
+      <TS N="Duration">PT0.000951S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="42">
+    <TNRef RefId="0" />
+    <ToString>git status</ToString>
+    <Props>
+      <I64 N="Id">22</I64>
+      <S N="CommandLine">git status</S>
+      <Obj N="ExecutionStatus" RefId="43">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:34:18.0545629+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:34:18.186741+05:30</DT>
+      <TS N="Duration">PT0.1321781S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="44">
+    <TNRef RefId="0" />
+    <ToString>git add .</ToString>
+    <Props>
+      <I64 N="Id">23</I64>
+      <S N="CommandLine">git add .</S>
+      <Obj N="ExecutionStatus" RefId="45">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:34:23.5357988+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:34:23.6021121+05:30</DT>
+      <TS N="Duration">PT0.0663133S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="46">
+    <TNRef RefId="0" />
+    <ToString>git commit -m "mix"</ToString>
+    <Props>
+      <I64 N="Id">24</I64>
+      <S N="CommandLine">git commit -m "mix"</S>
+      <Obj N="ExecutionStatus" RefId="47">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:34:29.6127241+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:34:29.7167451+05:30</DT>
+      <TS N="Duration">PT0.104021S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="48">
+    <TNRef RefId="0" />
+    <ToString>git remote</ToString>
+    <Props>
+      <I64 N="Id">25</I64>
+      <S N="CommandLine">git remote</S>
+      <Obj N="ExecutionStatus" RefId="49">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:34:36.7661189+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:34:36.826518+05:30</DT>
+      <TS N="Duration">PT0.0603991S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="50">
+    <TNRef RefId="0" />
+    <ToString>git branch</ToString>
+    <Props>
+      <I64 N="Id">26</I64>
+      <S N="CommandLine">git branch</S>
+      <Obj N="ExecutionStatus" RefId="51">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:34:43.5390353+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:34:43.7649831+05:30</DT>
+      <TS N="Duration">PT0.2259478S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="52">
+    <TNRef RefId="0" />
+    <ToString>git push x master</ToString>
+    <Props>
+      <I64 N="Id">27</I64>
+      <S N="CommandLine">git push x master</S>
+      <Obj N="ExecutionStatus" RefId="53">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:34:54.7343212+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:34:58.0290545+05:30</DT>
+      <TS N="Duration">PT3.2947333S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="54">
+    <TNRef RefId="0" />
+    <ToString>git remote x</ToString>
+    <Props>
+      <I64 N="Id">28</I64>
+      <S N="CommandLine">git remote x</S>
+      <Obj N="ExecutionStatus" RefId="55">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:35:16.5579305+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:35:16.6311154+05:30</DT>
+      <TS N="Duration">PT0.0731849S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="56">
+    <TNRef RefId="0" />
+    <ToString>git remote get-url x</ToString>
+    <Props>
+      <I64 N="Id">29</I64>
+      <S N="CommandLine">git remote get-url x</S>
+      <Obj N="ExecutionStatus" RefId="57">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:35:33.9760521+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:35:34.0364664+05:30</DT>
+      <TS N="Duration">PT0.0604143S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="58">
+    <TNRef RefId="0" />
+    <ToString>git log --oneline --graph</ToString>
+    <Props>
+      <I64 N="Id">30</I64>
+      <S N="CommandLine">git log --oneline --graph</S>
+      <Obj N="ExecutionStatus" RefId="59">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:36:04.9747813+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:36:05.1142255+05:30</DT>
+      <TS N="Duration">PT0.1394442S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="60">
+    <TNRef RefId="0" />
+    <ToString>git branch</ToString>
+    <Props>
+      <I64 N="Id">31</I64>
+      <S N="CommandLine">git branch</S>
+      <Obj N="ExecutionStatus" RefId="61">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:39:49.6305074+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:39:49.7600367+05:30</DT>
+      <TS N="Duration">PT0.1295293S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="62">
+    <TNRef RefId="0" />
+    <ToString>git diff master mix</ToString>
+    <Props>
+      <I64 N="Id">32</I64>
+      <S N="CommandLine">git diff master mix</S>
+      <Obj N="ExecutionStatus" RefId="63">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:40:06.8550017+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:40:06.9971609+05:30</DT>
+      <TS N="Duration">PT0.1421592S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="64">
+    <TNRef RefId="0" />
+    <ToString>git add .</ToString>
+    <Props>
+      <I64 N="Id">33</I64>
+      <S N="CommandLine">git add .</S>
+      <Obj N="ExecutionStatus" RefId="65">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:56:21.4604385+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:56:21.550316+05:30</DT>
+      <TS N="Duration">PT0.0898775S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="66">
+    <TNRef RefId="0" />
+    <ToString>git reset</ToString>
+    <Props>
+      <I64 N="Id">34</I64>
+      <S N="CommandLine">git reset</S>
+      <Obj N="ExecutionStatus" RefId="67">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:58:21.6513057+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:58:21.7626607+05:30</DT>
+      <TS N="Duration">PT0.111355S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="68">
+    <TNRef RefId="0" />
+    <ToString>git statis</ToString>
+    <Props>
+      <I64 N="Id">35</I64>
+      <S N="CommandLine">git statis</S>
+      <Obj N="ExecutionStatus" RefId="69">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:58:26.8065228+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:58:26.9189412+05:30</DT>
+      <TS N="Duration">PT0.1124184S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="70">
+    <TNRef RefId="0" />
+    <ToString>git status</ToString>
+    <Props>
+      <I64 N="Id">36</I64>
+      <S N="CommandLine">git status</S>
+      <Obj N="ExecutionStatus" RefId="71">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:58:28.9868898+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:58:29.0370478+05:30</DT>
+      <TS N="Duration">PT0.050158S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="72">
+    <TNRef RefId="0" />
+    <ToString>git branch revamp</ToString>
+    <Props>
+      <I64 N="Id">37</I64>
+      <S N="CommandLine">git branch revamp</S>
+      <Obj N="ExecutionStatus" RefId="73">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:58:44.1462762+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:58:44.2210742+05:30</DT>
+      <TS N="Duration">PT0.074798S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="74">
+    <TNRef RefId="0" />
+    <ToString>git checkout revamp</ToString>
+    <Props>
+      <I64 N="Id">38</I64>
+      <S N="CommandLine">git checkout revamp</S>
+      <Obj N="ExecutionStatus" RefId="75">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:58:50.8261728+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:58:50.9017919+05:30</DT>
+      <TS N="Duration">PT0.0756191S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="76">
+    <TNRef RefId="0" />
+    <ToString>git add .</ToString>
+    <Props>
+      <I64 N="Id">39</I64>
+      <S N="CommandLine">git add .</S>
+      <Obj N="ExecutionStatus" RefId="77">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T10:58:54.7196915+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T10:58:54.7644848+05:30</DT>
+      <TS N="Duration">PT0.0447933S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="78">
+    <TNRef RefId="0" />
+    <ToString>git commit -m "reorganised"</ToString>
+    <Props>
+      <I64 N="Id">40</I64>
+      <S N="CommandLine">git commit -m "reorganised"</S>
+      <Obj N="ExecutionStatus" RefId="79">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:00:21.7137235+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:00:21.8275475+05:30</DT>
+      <TS N="Duration">PT0.113824S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="80">
+    <TNRef RefId="0" />
+    <ToString>git status</ToString>
+    <Props>
+      <I64 N="Id">41</I64>
+      <S N="CommandLine">git status</S>
+      <Obj N="ExecutionStatus" RefId="81">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:00:37.3565318+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:00:37.4079891+05:30</DT>
+      <TS N="Duration">PT0.0514573S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="82">
+    <TNRef RefId="0" />
+    <ToString>git add .</ToString>
+    <Props>
+      <I64 N="Id">42</I64>
+      <S N="CommandLine">git add .</S>
+      <Obj N="ExecutionStatus" RefId="83">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:00:55.6748889+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:00:55.7225339+05:30</DT>
+      <TS N="Duration">PT0.047645S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="84">
+    <TNRef RefId="0" />
+    <ToString>git commit -m "reorganised"</ToString>
+    <Props>
+      <I64 N="Id">43</I64>
+      <S N="CommandLine">git commit -m "reorganised"</S>
+      <Obj N="ExecutionStatus" RefId="85">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:00:58.4093427+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:00:58.4949841+05:30</DT>
+      <TS N="Duration">PT0.0856414S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="86">
+    <TNRef RefId="0" />
+    <ToString>git tag "reorg 1"</ToString>
+    <Props>
+      <I64 N="Id">44</I64>
+      <S N="CommandLine">git tag "reorg 1"</S>
+      <Obj N="ExecutionStatus" RefId="87">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:01:10.2822356+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:01:10.3413916+05:30</DT>
+      <TS N="Duration">PT0.059156S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="88">
+    <TNRef RefId="0" />
+    <ToString>git tag reorg 1</ToString>
+    <Props>
+      <I64 N="Id">45</I64>
+      <S N="CommandLine">git tag reorg 1</S>
+      <Obj N="ExecutionStatus" RefId="89">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:01:49.8292491+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:01:49.9019726+05:30</DT>
+      <TS N="Duration">PT0.0727235S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="90">
+    <TNRef RefId="0" />
+    <ToString>git tag reorg1</ToString>
+    <Props>
+      <I64 N="Id">46</I64>
+      <S N="CommandLine">git tag reorg1</S>
+      <Obj N="ExecutionStatus" RefId="91">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:01:54.3486225+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:01:54.4205334+05:30</DT>
+      <TS N="Duration">PT0.0719109S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="92">
+    <TNRef RefId="0" />
+    <ToString>git log --oneline --graph --decorate=auto</ToString>
+    <Props>
+      <I64 N="Id">47</I64>
+      <S N="CommandLine">git log --oneline --graph --decorate=auto</S>
+      <Obj N="ExecutionStatus" RefId="93">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:02:44.2088411+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:02:44.3896104+05:30</DT>
+      <TS N="Duration">PT0.1807693S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="94">
+    <TNRef RefId="0" />
+    <ToString>git checkout master</ToString>
+    <Props>
+      <I64 N="Id">48</I64>
+      <S N="CommandLine">git checkout master</S>
+      <Obj N="ExecutionStatus" RefId="95">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:03:19.931414+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:03:20.0136217+05:30</DT>
+      <TS N="Duration">PT0.0822077S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="96">
+    <TNRef RefId="0" />
+    <ToString>git merge revamp</ToString>
+    <Props>
+      <I64 N="Id">49</I64>
+      <S N="CommandLine">git merge revamp</S>
+      <Obj N="ExecutionStatus" RefId="97">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:03:26.5026201+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:03:26.6245697+05:30</DT>
+      <TS N="Duration">PT0.1219496S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="98">
+    <TNRef RefId="0" />
+    <ToString>git log --oneline --graph --decorate=auto</ToString>
+    <Props>
+      <I64 N="Id">50</I64>
+      <S N="CommandLine">git log --oneline --graph --decorate=auto</S>
+      <Obj N="ExecutionStatus" RefId="99">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:03:35.2312507+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:03:35.3457656+05:30</DT>
+      <TS N="Duration">PT0.1145149S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="100">
+    <TNRef RefId="0" />
+    <ToString>git reflog</ToString>
+    <Props>
+      <I64 N="Id">51</I64>
+      <S N="CommandLine">git reflog</S>
+      <Obj N="ExecutionStatus" RefId="101">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:05:05.0561321+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:05:07.813931+05:30</DT>
+      <TS N="Duration">PT2.7577989S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="102">
+    <TNRef RefId="0" />
+    <ToString>git reset 74d68c7</ToString>
+    <Props>
+      <I64 N="Id">52</I64>
+      <S N="CommandLine">git reset 74d68c7</S>
+      <Obj N="ExecutionStatus" RefId="103">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:05:52.3947079+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:05:52.4841465+05:30</DT>
+      <TS N="Duration">PT0.0894386S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="104">
+    <TNRef RefId="0" />
+    <ToString>git reset --hard 74d68c7</ToString>
+    <Props>
+      <I64 N="Id">53</I64>
+      <S N="CommandLine">git reset --hard 74d68c7</S>
+      <Obj N="ExecutionStatus" RefId="105">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:06:07.9153615+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:06:07.9938305+05:30</DT>
+      <TS N="Duration">PT0.078469S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="106">
+    <TNRef RefId="0" />
+    <ToString>git branch</ToString>
+    <Props>
+      <I64 N="Id">54</I64>
+      <S N="CommandLine">git branch</S>
+      <Obj N="ExecutionStatus" RefId="107">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:06:15.6560186+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:06:15.7812295+05:30</DT>
+      <TS N="Duration">PT0.1252109S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="108">
+    <TNRef RefId="0" />
+    <ToString>Get-History | Export-Clixml history.xml</ToString>
+    <Props>
+      <I64 N="Id">55</I64>
+      <S N="CommandLine">Get-History | Export-Clixml history.xml</S>
+      <Obj N="ExecutionStatus" RefId="109">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:31:51.8284754+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:31:52.0530614+05:30</DT>
+      <TS N="Duration">PT0.224586S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="110">
+    <TNRef RefId="0" />
+    <ToString>.\history.xml</ToString>
+    <Props>
+      <I64 N="Id">56</I64>
+      <S N="CommandLine">.\history.xml</S>
+      <Obj N="ExecutionStatus" RefId="111">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:31:57.7041792+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:31:57.9086642+05:30</DT>
+      <TS N="Duration">PT0.204485S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="112">
+    <TNRef RefId="0" />
+    <ToString>explorer.exe .</ToString>
+    <Props>
+      <I64 N="Id">57</I64>
+      <S N="CommandLine">explorer.exe .</S>
+      <Obj N="ExecutionStatus" RefId="113">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:33:52.2233788+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:33:52.275282+05:30</DT>
+      <TS N="Duration">PT0.0519032S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="114">
+    <TNRef RefId="0" />
+    <ToString>.\history.xml</ToString>
+    <Props>
+      <I64 N="Id">58</I64>
+      <S N="CommandLine">.\history.xml</S>
+      <Obj N="ExecutionStatus" RefId="115">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:34:44.951142+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:34:45.4103803+05:30</DT>
+      <TS N="Duration">PT0.4592383S</TS>
+    </Props>
+  </Obj>
+  <Obj RefId="116">
+    <TNRef RefId="0" />
+    <ToString>Get-History | Export-Clixml history.xml</ToString>
+    <Props>
+      <I64 N="Id">59</I64>
+      <S N="CommandLine">Get-History | Export-Clixml history.xml</S>
+      <Obj N="ExecutionStatus" RefId="117">
+        <TNRef RefId="1" />
+        <ToString>Completed</ToString>
+        <I32>4</I32>
+      </Obj>
+      <DT N="StartExecutionTime">2025-08-13T11:35:11.9699352+05:30</DT>
+      <DT N="EndExecutionTime">2025-08-13T11:35:11.9838797+05:30</DT>
+      <TS N="Duration">PT0.0139445S</TS>
+    </Props>
+  </Obj>
+</Objs>
